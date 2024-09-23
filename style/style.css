@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* TheLuis */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor-padre {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+/* 1 sección */
+.contenedor-principal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 100px 0px 180px 0px;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/bg-header-desktop.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-historia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-historia figure {
+    width: auto;
+    height: auto;
+    margin: 0px 0px 40px;
+}
+
+.descripcion-historia {
+    width: 35%;
+    height: auto;
+    margin: 0px 0px 50px;
+}
+
+.descripcion-historia h1 {
+    color: #1a1a1a;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 0px 10px;
+}
+
+.descripcion-historia p {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contenedor-botones {
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 120px;
+}
+
+.contenedor-botones a {
+    width: 12%;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    white-space: middle;
+    transition: .6s ease;
+    border-radius: 16px;
+    border: 1px solid transparent;
+}
+
+.green {
+    transition: .6s ease;
+    background-color: hsl(171, 66%, 44%);
+}
+
+.green:hover {
+    color: hsl(171, 66%, 44%);
+    background-color: transparent;
+    border: 1px solid hsl(171, 66%, 44%);
+}
+
+.purple {
+    transition: .6s ease;
+    background-color: hsl(233, 100%, 69%);
+}
+
+.purple:hover {
+    color: hsl(233, 100%, 69%);
+    background-color: transparent;
+    border: 1px solid hsl(233, 100%, 69%);
+}
+
+.contenedor-descripcion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion {
+    width: 39%;
+    height: auto;
+}
+
+.descripcion h1 {
+    color: #1a1a1a;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0px 0px 17px;
+}
+
+.descripcion p {
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* 2 seccion */
+.contenedor-busqueda {
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 150px 0px;
+    display: flex;
+}
+
+.contenedor-imagen {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+}
+
+.contenedor-imagen figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagen figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-descripcion-busqueda {
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    padding: 0px 120px ;
+    justify-content: start;
+    align-items: center;
+}
+
+.contenedor-tarjetas {
+    gap: 60px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta {
+    width: 440px;
+    height: auto;
+    transition: .6s ease;
+}
+
+.tarjeta h3 {
+    color: #1a1a1a;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: start;
+    margin: 0px 0px 10px;
+}
+
+.tarjeta p {
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+}
+
+/* 3 sección */
+.contenedor-acceso {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0px 0px 100px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descripcion-acceso {
+    width: 45%;
+    height: auto;
+    margin: 0px 0px 60px;
+}
+
+.descripcion-acceso h1 {
+    color: #1a1a1a;
+    font-size: 46px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+
+.descripcion-acceso p {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contenedor-imagen-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-imagen-2 figure {
+    width: auto;
+    height: auto;
+}
+
+.contenedor-imagen-2 figure img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 4 sección */
+.contenedor-ideas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0px 0px 100px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descripcion-ideas {
+    width: 50%;
+    height: auto;
+    margin: 0px 0px 20px;
+}
+
+.descripcion-ideas h3 {
+    color: #1a1a1a;
+    font-size: 46px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px 0px 15px;
+}
+
+.descripcion-ideas p {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contenedor-works {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta-work {
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: .6s ease;
+}
+
+.tarjeta-work:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.tarjeta-work figure {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-work figure img {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.tarjeta-work h3 {
+    color: #1a1a1a;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 0px 10px;
+}
+
+.tarjeta-work p {
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* 5 Sección */
+.contenedor-agencia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0px 0px 100px;
+    justify-content: space-around;
+}
+
+.agencia {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    transition: .6s ease;
+}
+
+.agencia:hover {
+    transform: translateY(-10px);
+}
+
+.agencia figure {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.agencia figure img {
+    width: auto;
+    height: auto;
+}
+
+/* 6 Sección */
+.contenedor-ios {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descripcion-ios {
+    width: 45%;
+    height: auto;
+    margin: 0px 0px 50px;
+}
+
+.descripcion-ios h3 {
+    color: #1a1a1a;
+    font-size: 46px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px 0px 15px;
+}
+
+.descripcion-ios p {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.contenedor-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-imagen-footer {
+    width: auto;
+    height: auto;
+}
+
+.contenedor-imagen-footer figure {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-imagen-footer figure img {
+    width: 90px;
+    height: 90px;
+}
+
+.descripciones-footer {
+    gap: 50px;
+    width: 40%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.politicas {
+    width: auto;
+    height: 100%;
+}
+
+.politicas li {
+    list-style: none;
+    margin-bottom: 10px;
+    transition: .6s ease;
+}
+
+.politicas li a {
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    text-decoration: none;
+}
+
+.politicas li:hover {
+    color: #1a1a1a;
+    transform: translateX(10px);
+}
+
+.redes-sociales {
+    width: 9%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociales img {
+    cursor: pointer;
+    transition: .6s ease;
+}
+
+.redes-sociales img:hover {
+    transform: translateY(-10px);
+}
